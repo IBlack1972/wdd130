@@ -1,19 +1,26 @@
 :root{
   background-color: #888;
+  --primar-color: #26532b;
+  --secondary-color: #1e3888;
+  --accent-color1: #5ab1bb;
+  --accent-color2: #fafaff;
 }
 
 h1 {
-  color: #26532b;
+  color: var(--primar-color);
 }
 
 h2 {
-  color: #5ab1bb;
+  color: var(--accent-color1);
 }
 
 p {
-  color: #1e3888;
+  color: var(--secondary-color);
 }
 
+.hero.img{
+  float: right;
+}
 
 .image_link{
   text-decoration: none;
