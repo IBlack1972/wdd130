@@ -3,7 +3,7 @@
 }
 
 h1 {
-  color:s #26532b;
+  color: #26532b;
 }
 
 h2 {
@@ -20,20 +20,20 @@ p {
 }
 
 /* font css class declarations */
-.permanent-marker-regular {
+/*.permanent-marker-regular {
     font-family: "Permanent Marker", serif;
     font-weight: 400;
     font-style: normal;
-  }
+  }*/
 
 /* <uniquifier>: Use a unique and descriptive class name - light300
 /  <weight>: Use a value from 100 to 900 - I used value 300*/
 
-.sour-gummy-light300 {
+/*.sour-gummy-light300 {
   font-family: "Sour Gummy", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+}*/
