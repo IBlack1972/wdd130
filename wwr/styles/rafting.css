@@ -42,7 +42,7 @@ header img {
 }
 
 .footer{
-  margin: 1 rem auto;
+  margin: 1rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +76,7 @@ p {
 
 .hero{
  display: grid;
- border: 20p;
+ border: 20px;
  grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -98,7 +98,7 @@ p {
 .hero-article{
   display: flex;
   justify-content: center;
-  grid-template: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column: 1 / 4;
   grid-row: 2;
 }
