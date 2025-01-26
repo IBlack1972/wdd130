@@ -118,6 +118,10 @@ p {
   color: #e1dfea;
 }
 
+.background {
+  width: 1024px;
+}
+
 .hero img{
   grid-column: 1 / 4;
   grid-row: 1 / 4;
