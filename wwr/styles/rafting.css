@@ -43,10 +43,6 @@ header img {
 .adventures h2 {
   grid-column: 1 / span 2;
   text-align: center;
-  color: dimgray khaki;
-  color: aliceblue blueviolet;
-  color: yellow white;
-  color: gainsboro darkslategray;
 }
 
 .footer{
