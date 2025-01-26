@@ -4,7 +4,7 @@
   --secondary-color: #1e3888;
   --accent-color1: #c5ebf0;
   --accent-color2: #fafaff;
-  max-width: 1024px;
+  max-width: 1020px;
 }
 
 h1 {
@@ -101,7 +101,7 @@ p {
 
 .hero-article{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   grid-template-columns: 1fr 1fr;
   grid-column: 1 / 4;
   grid-row: 2;
@@ -114,12 +114,17 @@ p {
 
 .hero-article p {
   grid-column: 1 / 2;
-  background-color: rgba(55, 108, 114, 0.4);
+  background-color: rgba(55, 108, 114, 0.3);
+  font-size: xx-large;
+  max-width: 500px;
   color: #e1dfea;
+  grid-area: auto;
+  align-self: center;
+  justify-self: center;
 }
 
 .background {
-  width: 1024px;
+  width: 1005px;
 }
 
 .hero img{
