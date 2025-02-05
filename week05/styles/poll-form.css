@@ -1,0 +1,149 @@
+:root{
+    background-color: #fff;
+    margin: auto;
+    max-width: 800px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: zilla-slab-highlight, georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: lightgrey;
+    border-radius: 3rem;
+}
+
+header{
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 800px;
+}
+
+h1{
+    color: rebeccapurple;
+    font-family: Skranji;
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 2rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5 rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: Skranji, sans-serif;
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.3rem;
+    font-size: 1.1rem;
+}
+
+textarea label{
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 110%;
+    height: 110%;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem auto;
+    background-color: darkgreen;
+    color: #fff;
+    border: none;
+    border-radius: 1.3rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 8rem;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+.skranji-regular {
+    font-family: "Skranji", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+  }
+  
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.form-item label{
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0 0.5rem;
+}
+
+  .skranji-bold {
+    font-family: "Skranji", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .zilla-slab-highlight-regular {
+    font-family: "Zilla Slab Highlight", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zilla-slab-highlight-bold {
+    font-family: "Zilla Slab Highlight", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
