@@ -23,6 +23,10 @@ figcaption{
   color: #c4dbde;
 }
 
+form{
+  color: #c4dbde;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
@@ -80,8 +84,8 @@ textarea{
   grid-column: 1 / span 4;
 }
 
-.adventures img{
-  max-width: 175px;
+.adventures img{ 
+  max-width: 175x;
 }
 
 .checkbox{
@@ -101,6 +105,10 @@ textarea{
 
 .company h1{
   grid-column: 1 / span 2;
+}
+
+.company label{
+  color: #55ffee;
 }
 
 .employees{
