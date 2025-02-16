@@ -1,16 +1,69 @@
-<!--color pallette link https://coolors.co/26532b-1e3888-5ab1bb-fafaff-69140e -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Isaac Blac">
+    <meta name="author" content="Isaac Black">
+    <meta name="description" content="Home page of Moyie River Adventures site">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="styles/rafting.css" rel="stylesheet">
+    <title>Home | Moyie River Adventures</title>
 </head>
 <body>
-    
+    <header class="navigation">
+        <img clas="background" src="images/z-excitingexpedition.jpg" alt="company logo" >
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>Moyie River Rafting and Adventures</h1>
+            <img clas="background" src="images/rafting10_1024.jpg" alt="rafting background">
+            <section class="hero_form">
+                <form name="newsletter">
+                    <fieldset>
+                        <div>
+                            <label for="fullname">Full Name:</label>
+                            <input type="text" name="fullname" id="fullname">
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </fieldset>
+                    <button type="submit">Enroll in newsletter</button>
+                </form>
+            </section>
+        </div>
+        <div class="book">
+            <h2>Book your next adventure now!!</h2>       
+            <p>Our team of Adventure professionals is ready to make your experience memorable<br>
+                <a href="trips.html">click here</a> to start your adventure now</p>
+            <figure>
+                <img href="images/pexels-emrecan-2189700.jpg" alt="Stunning mountain river view"><label></label>
+                <figcaption>Explore amazing sights you cannot see anywhere else</figcaption>
+            </figure>
+            <figure>
+                <img href="images/pexels-minan1398-853168.jpg" alt="Group celebrating a sunset"><label></label>
+                <figcaption>Enjoy great adventure with family, friends or coworkers</figcaption>
+            </figure>
+            <figure>
+                <img href="images/pexels-vladbagacian-1061640.jpg" alt="remote campfire"><label></label>
+                <figcaption>Have amazing adventures camping and enjoying nature</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>©️2025 🌊 Moyie River Adventures 🌊 Isaac Black</p>
+        <a href="https://facebook.com" class="image_link"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="https://x.com" class="image_link"><img src="images/twitter.png" alt="X"></a>
+        <a href="https://youtube.com" class="image_link"><img src="images/youtube.png" alt="Youtube"></a> 
+    </footer>
 </body>
 </html>
